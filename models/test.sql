@@ -10,7 +10,7 @@
 
 with source_data as (
 
-    select * from RAW.TEST_VIEW
+    select * from testdataset.TEST_VIEW
 )
 
 select *
