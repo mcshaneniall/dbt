@@ -10,7 +10,7 @@
 
 with source_data as (
 
-    select * from refined.TEST_VIEW
+    select TEST_ID from refined.TEST_VIEW
 )
 
 select *
